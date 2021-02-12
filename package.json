@@ -1,0 +1,17 @@
+{
+  "name": "address-search",
+  "version": "1.0.0",
+  "description": "API for returning postcodes from a provided database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.3.0",
+    "pg": "^8.5.1"
+  }
+}
